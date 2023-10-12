@@ -1,5 +1,6 @@
 const messageButton = document.querySelector(".message-button");
 const message = document.querySelector(".message");
+const mainContent = document.querySelector("main")
 
 document.addEventListener("DOMContentLoaded", function () {
   setTimeout(function () {
@@ -10,4 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function removeMessage() {
   message.style.display = "none"
+  
+  // ? in case of slow loading div message ...  
+  mainContent.style.display = "block"
 }

@@ -11,6 +11,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .message {
@@ -70,7 +71,8 @@ main {
   margin: auto;
   background-color: aliceblue;
   padding: 1rem;
-  line-height: 2rem ;
+  line-height: 2rem;
+  display: none;
 }
 
 @media (max-width: 900px) {

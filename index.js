@@ -11,7 +11,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function removeMessage() {
   message.style.display = "none"
-  
-  // ? in case of slow loading div message ...  
   mainContent.style.display = "block"
 }
